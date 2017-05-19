@@ -3,6 +3,7 @@ package schema
 //Log 虚拟机配置
 type Log struct {
 	ID             int64  `xorm:"unique" json:"id"`
+	SeqID          string `xorm:"seqId" json:"seqId"`
 	Belong         string `xorm:"belong" json:"belong"`
 	URI            string `xorm:"uri" json:"uri"`
 	UpdatedAt      int64  `xorm:"updated" json:"updated"`
