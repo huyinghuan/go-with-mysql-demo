@@ -1,7 +1,7 @@
-package bean
+package model
 
 import (
-	"maid-data-log/schema"
+	"maid-data-log/model/schema"
 )
 
 type LogBean struct{}

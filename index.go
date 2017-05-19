@@ -1,8 +1,8 @@
 package main
 
 import (
-	"maid-data-log/bean"
 	"maid-data-log/controller"
+	"maid-data-log/model"
 
 	iris "gopkg.in/kataras/iris.v6"
 	"gopkg.in/kataras/iris.v6/adaptors/httprouter"
@@ -11,7 +11,7 @@ import (
 
 func main() {
 	//连接数据库
-	bean.InitConnect()
+	model.InitConnect()
 	app := iris.New()
 	sessionAdapt := sessions.New(sessions.Config{})
 

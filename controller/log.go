@@ -1,10 +1,9 @@
 package controller
 
 import (
-	"maid-data-log/bean"
-
 	"fmt"
-	"maid-data-log/schema"
+	"maid-data-log/model"
+	"maid-data-log/model/schema"
 
 	iris "gopkg.in/kataras/iris.v6"
 )
@@ -12,7 +11,7 @@ import (
 type LogCtrl struct {
 }
 
-var logBean = &bean.LogBean{}
+var logBean = &model.LogBean{}
 
 func (logCtrl *LogCtrl) GetAll(ctx *iris.Context) {
 	if list, err := logBean.FindAll(); err != nil {
