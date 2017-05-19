@@ -1,0 +1,4 @@
+db: 
+  driver: mysql
+  connect: "root:123456@tcp(127.0.0.1:3306)/maid-data-log"
+dev: true

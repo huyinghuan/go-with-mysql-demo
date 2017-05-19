@@ -1,0 +1,19 @@
+{
+	"comment": "",
+	"ignore": "",
+	"package": [
+		{
+			"path": "gopkg.in/kataras/iris.v6",
+			"revision": ""
+		},
+		{
+			"path": "gopkg.in/kataras/iris.v6/adaptors/httprouter",
+			"revision": ""
+		},
+		{
+			"path": "gopkg.in/kataras/iris.v6/adaptors/sessions",
+			"revision": ""
+		}
+	],
+	"rootPath": "maid-data-log"
+}

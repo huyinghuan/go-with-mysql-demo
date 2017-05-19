@@ -1,0 +1,20 @@
+{
+  "name": "maid-data-log",
+  "version": "1.0",
+  "dependencies": {},
+  "silky-version": "2.4.2",
+  "silky-plugin": {},
+  "silky": {
+    "port": 14422,
+    "index": "index.html",
+    "autoindex": true
+  },
+  "silky-pubPath": "node_modules",
+  "silky-build": {
+    "outdir": "./build",
+    "ignore": [
+      "node_modules",
+      "(\\/\\.[^/]+)$"
+    ]
+  }
+}
